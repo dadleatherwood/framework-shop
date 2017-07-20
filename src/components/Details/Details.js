@@ -21,7 +21,7 @@ export function Details( { addToCart, history, product } ) {
 	}
 	return (
 		<div className="details">
-		  <Link to='./shop'>
+		  <Link to='/shop'>
 			  <h3 className="details__back-to-shop">Back to shop</h3>
 			</Link>
 			<img
