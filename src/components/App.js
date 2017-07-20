@@ -1,4 +1,5 @@
 import React from "react";
+import Router from '../router'
 
 import "./App.css";
 
@@ -8,6 +9,7 @@ export function App( { children } ) {
 	return (
 		<div className="app">
 			<Nav />
+			<Router />
 		</div>
 	);
 }
