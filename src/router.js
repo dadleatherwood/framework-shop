@@ -5,13 +5,10 @@ import Landing from './components/Landing/Landing'
 import Shop from './components/Shop/Shop'
 import Details from './components/Details/Details'
 import Cart from './components/Cart/Cart'
+import ThankYou from './components/ThankYou/ThankYou'
 
 
 class Router extends Component {
-  constructor () {
-    super()
-  }
-
   render () {
     return (
       <div>
@@ -20,6 +17,7 @@ class Router extends Component {
           <Route path='/shop' component={Shop} />
           <Route path='/details/:name' component={Details} />
           <Route path='/cart' component={Cart} />
+          <Route path='/thank-you' component={ThankYou} />
         </Switch>
       </div>
     )
